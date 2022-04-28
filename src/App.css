@@ -9,77 +9,55 @@ nav{
     display: flex;
     height: 70px;
     padding: 20px 36px;
-    box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px #0000001A;
-
+    background-color:#F55A5A;
+    align-items: center;
+    box-shadow:0px  2.98256px 7.4564px rgba(73, 10, 10, 0.4);
 }
-section{
-    padding: 20px;
+.logo{
+   height:45px;
+   margin-left: 40%;
+   margin-bottom: 10px;
 }
-.sec-header{
+.logo-text{
+    margin-bottom: 10px;
     font-size: 30px;
-}
-.sec-text{
-    margin-top: 0;
-    font-size: 18px;
-}
-.hero{
-    display: flex;
-    flex-direction: column;
-}
-.sec-img{
-    align-self:center;
-    max-width: 550px;
-}
-.sec-header{
-    margin-bottom: 16px;
+    color:white;
+    margin : 10px;
 }
 .card{
-    width: 175px;
-    font-size: 12px;
-    flex: 0 0 auto;
-    flex-direction: column;
     display:flex;
-    margin:10px;
-    position:relative;
-}
-
-.card-line{
-    margin-top: 10px;
-    display:inline-flex;
-    align-items: center;
-
+    position: relative;
 }
 .card-img{
-    width: 100%;
-    border-radius: 9px;
-    margin-bottom: 9px;
-    height:240px;
+    height : 240px;
+    width : 220px;
+    margin : 30px;
+    display:flex;
 }
 .card-title{
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin-bottom: 0;
+margin-top: 60px;
+font-size: 40px;
 }
-.star-img{
-    height: 14px;
+.inner-card{
+    position:absolute;
+    left:280px;
+    bottom: 40px;
 }
-.grey{
-    color:#918E9B;
+.card-date{
+    margin-top: 30px;
 }
-.bold{
-    font-weight: bold;
+.map-logo{
+    height:20px;
+    margin-top: 20px;
+    margin-right: 6px;
 }
-.int{
+.upper-card{
     display: flex;
-    overflow-x: auto;
-    flex-wrap: nowrap;
+    margin-top: 15px;
 }
-.card-badge{
-    position : absolute;
-    top:6px;
-    left:6px;
-    background-color: white;
-    padding : 5px 7px;
-    border-radius: 2px;
-    font-weight: bold;
+.map{
+    color:grey;
+    margin-left: 20px;
+    text-decoration: underline;
 }
+
